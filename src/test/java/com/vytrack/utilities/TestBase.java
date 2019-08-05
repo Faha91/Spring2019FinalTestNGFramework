@@ -108,5 +108,10 @@ public class TestBase {
     public void tearDownTest() {
         logger.info(":: FLUSHING REPORT ::");
         report.flush();
+
+    }
+
+    public static void main(String[] args) {
+
     }
 }
